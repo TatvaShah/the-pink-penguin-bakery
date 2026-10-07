@@ -34,8 +34,8 @@ export function Hero() {
               <dd className="mt-1 text-cocoa">Friday or Saturday</dd>
             </div>
             <div className="col-span-2 rounded-2xl bg-foam p-3 ring-1 ring-pink/15 sm:col-span-1">
-              <dt className="font-extrabold text-berry">How to reach her</dt>
-              <dd className="mt-1 text-cocoa">Instagram DM or email</dd>
+              <dt className="font-extrabold text-berry">Say hello</dt>
+              <dd className="mt-1 text-cocoa">A DM or an email</dd>
             </div>
           </dl>
         </div>

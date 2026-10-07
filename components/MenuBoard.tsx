@@ -79,7 +79,7 @@ export function MenuBoard() {
         <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-berry">Pricing</p>
         <h2 className="display mt-2 text-4xl font-semibold tracking-tight sm:text-5xl">The current menu</h2>
         <p className="mt-4 max-w-2xl text-lg text-cocoa">
-          These prices are from the menu posted on Instagram on May 12, 2026. Custom cake prices are quoted with the design. Confirm the latest menu in your message.
+          Here is what I bake, fresh to order. Custom cakes are quoted with the design, so tell me the date and the vibe. If you want to double check what is baking this week, just send a note.
         </p>
 
         <div className="mt-8 flex gap-3 overflow-x-auto pb-2">

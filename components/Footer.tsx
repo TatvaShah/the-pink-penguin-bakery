@@ -38,13 +38,13 @@ export function Footer() {
         <div>
           <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-butter">Pickup</p>
           <p className="mt-3 text-sm leading-relaxed text-white/75">
-            Friday or Saturday in Thornhill. Other days by request. The exact address is shared after an order is confirmed.
+            Friday or Saturday in Thornhill. Other days by request. I will send the exact address once your order is confirmed.
           </p>
         </div>
       </div>
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4 text-xs text-white/70 sm:px-6">
-          <p>Orders by message. No storefront hours are published.</p>
+          <p>Message me to order. I bake from home, so we will pick a time together.</p>
           <a href="https://www.claudaura.ca" className="font-bold text-white hover:text-butter">
             Website by ClaudAura
           </a>

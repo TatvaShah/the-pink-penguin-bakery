@@ -103,7 +103,7 @@ export function Inquiry() {
           <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-berry">Order or class inquiry</p>
           <h2 className="display mt-2 text-4xl font-semibold tracking-tight">Write the DM before you send it.</h2>
           <p className="mt-3 text-cocoa">
-            Choose what you want. The note updates as you go. Copy it, then paste it into the Instagram chat.
+            Tell me what you are dreaming of. The note fills in as you go, then you can paste it into a DM.
           </p>
 
           <fieldset className="mt-6">

@@ -74,7 +74,7 @@ const jsonLd = {
   sameAs: [bakery.instagram, bakery.facebook, bakery.threads],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Menu posted May 12, 2026",
+    name: "Pink Penguin Bakery menu",
     itemListElement: [
       { "@type": "Offer", price: "10", priceCurrency: "CAD", itemOffered: { "@type": "Product", name: "Plain challah" } },
       { "@type": "Offer", price: "10", priceCurrency: "CAD", itemOffered: { "@type": "Product", name: "Sesame challah" } },

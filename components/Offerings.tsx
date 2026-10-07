@@ -36,7 +36,7 @@ export function Offerings() {
               Every custom cake is baked fresh and designed for the celebration, whether you have a full vision or just a colour palette and a vibe. Buttercream, bright colours, and a little bit extra.
             </p>
             <p className="mt-4 text-cocoa">
-              Flavours on the menu include vanilla, chocolate, funfetti, red velvet, lemon, and more. Cake pricing is shared when you inquire, because size and design change the order.
+              Flavours I love to bake include vanilla, chocolate, funfetti, red velvet, lemon, and more. Tell me the size and the design, and I will share pricing with you.
             </p>
             <ul className="mt-6 grid gap-2">
               {sizes.map((item) => (
@@ -47,7 +47,7 @@ export function Offerings() {
               ))}
             </ul>
             <p className="mt-4 text-sm text-cocoa">
-              Serving counts shift with how the cake is cut, how many layers it has, and whether other desserts are on the table. If you are unsure, send the guest count.
+              A serving count depends on how you slice it, how many layers it has, and whether other desserts are joining the table. If you are unsure, send me the guest count.
             </p>
           </div>
         </div>
@@ -60,12 +60,12 @@ export function Offerings() {
             <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-berry">Weekly bakes</p>
             <h2 className="display mt-2 text-4xl font-semibold tracking-tight sm:text-5xl">Challah, babka, and the treats that keep coming back.</h2>
             <p className="mt-4 text-lg leading-relaxed text-cocoa">
-              Soft, buttery challah and babka swirled with chocolate or cinnamon, baked fresh to order. Weekly orders close every Wednesday for Friday or Saturday pickup. Instagram highlights include Shabbat and how to order.
+              Soft, buttery challah and babka swirled with chocolate or cinnamon, baked fresh to order. Weekly orders close every Wednesday for Friday or Saturday pickup. Lovely on the weekend table, and especially sweet for Shabbat.
             </p>
             <div className="mt-6 grid gap-3 sm:grid-cols-2">
               <article className="rounded-3xl bg-blush p-5">
                 <h3 className="display text-2xl font-semibold">Challah</h3>
-                <p className="mt-2 text-sm leading-relaxed text-cocoa">Plain $10, sesame $10, raisin $12. Crown challah appears for Rosh Hashanah.</p>
+                <p className="mt-2 text-sm leading-relaxed text-cocoa">Plain $10, sesame $10, raisin $12. Crown challah comes out once a year, for Rosh Hashanah.</p>
               </article>
               <article className="rounded-3xl bg-cream p-5 ring-1 ring-pink/15">
                 <h3 className="display text-2xl font-semibold">Babka</h3>
@@ -106,7 +106,7 @@ export function Offerings() {
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2">
           <Image
             src="/media/classes.webp"
-            alt="Pink Penguin Bakery graphic inviting people to a private cake decorating class"
+            alt="Invitation to a private cake decorating class"
             width={1080}
             height={1080}
             className="rounded-[2rem] object-cover"
@@ -115,10 +115,10 @@ export function Offerings() {
             <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-butter">Cake decorating classes</p>
             <h2 className="display mt-2 text-4xl font-semibold tracking-tight sm:text-5xl">I come to you.</h2>
             <p className="mt-4 text-lg leading-relaxed text-white/90">
-              Private cake decorating classes are perfect for birthdays, bridal showers, girls&apos; nights, and more. The cakes, buttercream, tools, and sprinkles come with her. You gather the group and have fun.
+              Perfect for birthdays, bridal showers, girls&apos; nights, and more, and I come to you. I bring the cakes, buttercream, tools, and sprinkles, so all you need to do is gather your group and have fun.
             </p>
             <p className="mt-4 text-white/90">
-              Class pricing is not posted. Send a note with the occasion, the group, and a date, and she will share availability.
+              Send me the occasion, the group, and a date, and I will share pricing and availability.
             </p>
             <a href="#inquire" className="mt-8 inline-flex rounded-full bg-butter px-5 py-3 font-extrabold text-ink hover:bg-white">
               Ask about a class

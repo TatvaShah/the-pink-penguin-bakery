@@ -28,7 +28,7 @@ export function Reels() {
       <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-berry">In motion</p>
       <h2 className="display mt-2 text-4xl font-semibold tracking-tight sm:text-5xl">Reels from the kitchen</h2>
       <p className="mt-4 max-w-2xl text-lg text-cocoa">
-        Press play. These are the bakery&apos;s own Instagram reels, saved here so they play on the page.
+        Press play for a little kitchen magic: challah, chocolate babka, and buttercream.
       </p>
       <div className="mt-8 grid gap-6 lg:grid-cols-3">
         {reels.map((reel) => (
@@ -54,18 +54,18 @@ export function Reels() {
       </div>
 
       <div className="mt-12">
-        <h3 className="display text-3xl font-semibold">On Instagram</h3>
-        <p className="mt-2 text-cocoa">The original posts, embedded from Instagram.</p>
+        <h3 className="display text-3xl font-semibold">Come say hi</h3>
+        <p className="mt-2 text-cocoa">More from the kitchen, if you want to linger.</p>
         <div className="mt-6 grid gap-6 lg:grid-cols-2">
           <iframe
             src="https://www.instagram.com/p/Dd89Q1ii3P5/embed"
-            title="Instagram post of a rainbow rosette birthday cake"
+            title="Rainbow rosette birthday cake"
             className="h-[540px] w-full rounded-3xl bg-white"
             loading="lazy"
           />
           <iframe
             src="https://www.instagram.com/reel/DVbbyWkDkdF/embed"
-            title="Instagram reel of chocolate babka being baked"
+            title="Chocolate babka being baked"
             className="h-[540px] w-full rounded-3xl bg-white"
             loading="lazy"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"

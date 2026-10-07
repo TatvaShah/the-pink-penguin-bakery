@@ -1,8 +1,8 @@
 # The Pink Penguin Bakery
 
-A prospect demo for The Pink Penguin Bakery, a home bakery in Thornhill, Ontario. Built by ClaudAura IT Solutions.
+The Pink Penguin Bakery is a home bakery in Thornhill, Ontario: custom cakes, weekly challah and babka, and private cake decorating classes.
 
-The site uses the bakery's public Instagram photos, reels, menu, and ordering notes. It does not publish a street address.
+This site was built by ClaudAura IT Solutions.
 
 ## Run
 

@@ -7,15 +7,15 @@ const steps = [
   },
   {
     title: "DM or email",
-    body: `Send an Instagram DM to ${bakery.instagramHandle}, or email ${bakery.email}. The note builder below writes a starter message for you.`,
+    body: `Send me a DM at ${bakery.instagramHandle}, or email ${bakery.email}. The note below can start the message for you.`,
   },
   {
     title: "Pickup in Thornhill",
-    body: "Regular pickup is Friday or Saturday. Other days are available by request, and custom orders get a pickup day that works. The street address is shared once the order is confirmed.",
+    body: "Regular pickup is Friday or Saturday in Thornhill. Other days are available by request, and custom orders get a pickup day that works.",
   },
   {
     title: "Fresh, not leftover",
-    body: "Everything is made to order. There is no shop counter and no posted street address.",
+    body: "I bake everything to order, so it is fresh when you pick it up. I will send the exact spot once your order is confirmed.",
   },
 ];
 

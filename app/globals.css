@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #1c1216;
+  --color-cocoa: #3d291f;
+  --color-berry: #8e1d45;
+  --color-pink: #e4377a;
+  --color-blush: #fde7f0;
+  --color-cream: #fff6f8;
+  --color-butter: #f6d48a;
+  --color-foam: #fffdfd;
+  --font-display: var(--font-fraunces), "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-nunito), "Avenir Next", "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: #f6b6d0;
+  color: #1c1216;
+}
+
+.display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+}
+
+.marquee-track {
+  animation: drift 32s linear infinite;
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.scallop {
+  height: 22px;
+  background-image: radial-gradient(circle at 12px 22px, var(--color-cream) 12px, transparent 13px);
+  background-size: 24px 22px;
+  background-repeat: repeat-x;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .marquee-track {
+    animation: none;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .marquee-copy {
+    display: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

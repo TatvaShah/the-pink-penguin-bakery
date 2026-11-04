@@ -1,4 +1,4 @@
-// Build time image step. Converts every photo in public/images into static WebP and AVIF files at
+// Build time image step. Converts every photo in the folders under public into static WebP and AVIF files at
 // responsive widths (never wider than the source) and writes lib/image-manifest.json with
 // intrinsic sizes. lib/image-loader.ts points next/image at these files, so Vercel runs zero
 // image transformations. Outputs are committed; unchanged images are skipped, so builds stay fast.
@@ -26,7 +26,9 @@ function walk(dir) {
 }
 
 const old = fs.existsSync(MANIFEST) ? JSON.parse(fs.readFileSync(MANIFEST, "utf8")) : {};
-const files = walk(SRC);
+// Every image folder under public (images, media, photos, brand...). Files directly in public, like og.jpg, are left alone.
+const PUB = path.join(ROOT, "public");
+const files = fs.readdirSync(PUB, { withFileTypes: true }).filter((d) => d.isDirectory()).sort((a, b) => a.name.localeCompare(b.name)).flatMap((d) => walk(path.join(PUB, d.name)));
 const manifest = {};
 const keep = new Set();
 let sharp = null;
@@ -39,7 +41,8 @@ for (const file of files) {
   // and gives each version of an image a new URL, so long browser caching is safe.
   const hash = crypto.createHash("sha1").update(`${VERSION}:${QUALITY}:${AVIF_QUALITY}:`).update(fs.readFileSync(file)).digest("hex").slice(0, 10);
   const stamp = hash;
-  const base = "/images/_opt/" + path.relative(SRC, file).split(path.sep).join("/").replace(EXT, "") + "." + hash;
+  const sub = rel.startsWith("images/") ? rel.slice(7) : rel;
+  const base = "/images/_opt/" + sub.replace(EXT, "") + "." + hash;
   const prev = old[key];
   const outs = (e) => e.widths.flatMap((w) => ["webp", "avif"].map((x) => path.join(ROOT, "public", `${e.base}-${w}.${x}`)));
   if (prev && prev.stamp === stamp && prev.base === base && outs(prev).every((p) => fs.existsSync(p))) {

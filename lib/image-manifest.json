@@ -1,1 +1,326 @@
-{}
+{
+ "/media/biscotti.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/biscotti.5987f40e62",
+  "stamp": "5987f40e62"
+ },
+ "/media/bright-cake.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/bright-cake.f81876128f",
+  "stamp": "f81876128f"
+ },
+ "/media/challah-poster.webp": {
+  "w": 540,
+  "h": 960,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   540
+  ],
+  "base": "/images/_opt/media/challah-poster.fd7e932934",
+  "stamp": "fd7e932934"
+ },
+ "/media/chocbabka-poster.webp": {
+  "w": 540,
+  "h": 960,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   540
+  ],
+  "base": "/images/_opt/media/chocbabka-poster.d7b8696413",
+  "stamp": "d7b8696413"
+ },
+ "/media/classes.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/classes.7c887bae5f",
+  "stamp": "7c887bae5f"
+ },
+ "/media/crown-challah.webp": {
+  "w": 1080,
+  "h": 1426,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/crown-challah.19ad5d1a5c",
+  "stamp": "19ad5d1a5c"
+ },
+ "/media/logo.png": {
+  "w": 511,
+  "h": 511,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   511
+  ],
+  "base": "/images/_opt/media/logo.9a0ae4a51b",
+  "stamp": "9a0ae4a51b"
+ },
+ "/media/menu-01.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/menu-01.3d7eb0e1a1",
+  "stamp": "3d7eb0e1a1"
+ },
+ "/media/menu-02.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/menu-02.6074d34f00",
+  "stamp": "6074d34f00"
+ },
+ "/media/menu-03.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/menu-03.b1601c4fa5",
+  "stamp": "b1601c4fa5"
+ },
+ "/media/menu-04.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/menu-04.86ee70daa0",
+  "stamp": "86ee70daa0"
+ },
+ "/media/menu-05.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/menu-05.192310d1c9",
+  "stamp": "192310d1c9"
+ },
+ "/media/menu-06.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/menu-06.5a0768e568",
+  "stamp": "5a0768e568"
+ },
+ "/media/menu-07.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/menu-07.acbe00d29a",
+  "stamp": "acbe00d29a"
+ },
+ "/media/menu-08.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/menu-08.f663349934",
+  "stamp": "f663349934"
+ },
+ "/media/mini-cakes.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/mini-cakes.36334c9cf1",
+  "stamp": "36334c9cf1"
+ },
+ "/media/number-cake.webp": {
+  "w": 1080,
+  "h": 1350,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/number-cake.824a0869f6",
+  "stamp": "824a0869f6"
+ },
+ "/media/pink-cake.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/pink-cake.11444cdff0",
+  "stamp": "11444cdff0"
+ },
+ "/media/rainbow.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/rainbow.672ddad04a",
+  "stamp": "672ddad04a"
+ },
+ "/media/vintage-cake.webp": {
+  "w": 1080,
+  "h": 1080,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080
+  ],
+  "base": "/images/_opt/media/vintage-cake.2c5475a8ee",
+  "stamp": "2c5475a8ee"
+ },
+ "/media/vintage-poster.webp": {
+  "w": 540,
+  "h": 960,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   540
+  ],
+  "base": "/images/_opt/media/vintage-poster.3c98de2500",
+  "stamp": "3c98de2500"
+ }
+}
